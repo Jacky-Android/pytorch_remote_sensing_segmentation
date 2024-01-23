@@ -29,6 +29,10 @@ Potsdam
 │   ├── test (processed)
 ```
 因为Potsdam数据集有38块，可以选择块来做为训练集，剩下的做为测试集
+也可以使用我切好的
+https://www.123pan.com/s/YnBgjv-D8j1H.html提取码:pots
+
+https://drive.google.com/file/d/1NWLLVlUVaIZYwePbPx7Ca60AdyW-cdMT/view?usp=sharing
 ```python 
 python pytorch_remote_sensing_senmentation/tools/potsdam_cut.py --img-dir "data/potsdam/train_images" --mask-dir "data/potsdam/train_masks" --output-img-dir "data/potsdam/train/images_1024" --output-mask-dir "data/potsdam/train/masks_1024" --mode "train" --split-size 1024 --stride 512 --rgb-image 
 ```
