@@ -47,3 +47,17 @@ python pytorch_remote_sensing_senmentation/tools/potsdam_cut.py --img-dir "data/
 123盘：https://www.123pan.com/s/YnBgjv-rST4H.html提取码:Vsb8
 
 Google Dirver:https://drive.google.com/file/d/1L2rxAzMm-pEV2dY111285t04hOm2L1hv/view?usp=drive_link
+
+
+## LoveDa数据集
+类别标签：背景 - 1、建筑 - 2、道路 - 3、水 - 4、贫瘠 - 5、森林 - 6、农业 - 7。无数据区域被指定为 0，应忽略。
+
+南京、常州、武汉5987张高空间分辨率（0.3 m）遥感影像
+关注城乡不同地理环境
+推进语义分割和领域适应任务
+三个巨大的挑战：
+多尺度物体
+复杂背景样本
+班级分布不一致
+数据集：LoveDA数据集在[Zenodo](https://zenodo.org/records/5706578)
+![image](https://github.com/Jacky-Android/pytorch_remote_sensing_segmentation/assets/55181594/c3f49559-d00f-4847-ae70-05a84cb6f1bb)
