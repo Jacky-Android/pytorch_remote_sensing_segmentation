@@ -51,7 +51,6 @@ Google Dirver:https://drive.google.com/file/d/1L2rxAzMm-pEV2dY111285t04hOm2L1hv/
 
 ## LoveDa数据集
 类别标签：背景 - 1、建筑 - 2、道路 - 3、水 - 4、贫瘠 - 5、森林 - 6、农业 - 7。无数据区域被指定为 0，应忽略。
-
 南京、常州、武汉5987张高空间分辨率（0.3 m）遥感影像
 关注城乡不同地理环境
 推进语义分割和领域适应任务
@@ -61,3 +60,9 @@ Google Dirver:https://drive.google.com/file/d/1L2rxAzMm-pEV2dY111285t04hOm2L1hv/
 班级分布不一致
 数据集：LoveDA数据集在[Zenodo](https://zenodo.org/records/5706578)
 ![image](https://github.com/Jacky-Android/pytorch_remote_sensing_segmentation/assets/55181594/c3f49559-d00f-4847-ae70-05a84cb6f1bb)
+
+## OpenEarthMap
+![image](https://github.com/Jacky-Android/pytorch_remote_sensing_segmentation/assets/55181594/4f50a81b-2189-4aed-a357-f184aaff9870)
+
+OpenEarthMap 是全球高分辨率土地覆被制图的基准数据集。OpenEarthMap 包含 5000 幅航空和卫星图像，其中有人工标注的 8 类土地覆被标签和 220 万个片段，地面采样距离为 0.25-0.5 米，覆盖 6 大洲 44 个国家的 97 个地区。在 OpenEarthMap 上训练的土地覆被测绘模型可在全球范围内通用，并可在各种应用中作为现成模型使用。
+数据集：[OpenEarthMap](https://zenodo.org/records/7223446)
