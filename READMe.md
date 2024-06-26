@@ -64,7 +64,8 @@ Google Dirver:https://drive.google.com/file/d/1L2rxAzMm-pEV2dY111285t04hOm2L1hv/
 三个巨大的挑战：
 多尺度物体
 复杂背景样本
-班级分布不一致
+类别分布不一致
+
 数据集：LoveDA数据集在[Zenodo](https://zenodo.org/records/5706578)
 ![image](https://github.com/Jacky-Android/pytorch_remote_sensing_segmentation/assets/55181594/c3f49559-d00f-4847-ae70-05a84cb6f1bb)
 
