@@ -21,9 +21,10 @@ Loading..........
 
 ## Potsdam
 数据集为城市区域的遥感影像语义分割数据集，特征影像数据分辨率为8米，包括38幅遥感影像，波段为红色、绿色，近红外波段，DSM波段，其中24幅完全标注，标注的土地覆盖类别包括：耕地：[0, 255, 255]，林地：[255, 0, 0]，草地：[0, 255, 0]，建筑用地：[255, 0, 255]，水域：[0, 0, 255]，未利用地及其他：[255, 255, 0])。数据详情：[http://www2.isprs.org/commissions/comm3/wg4/2d-sem-label-potsdam.html](http://www2.isprs.org/commissions/comm3/wg4/2d-sem-label-potsdam.html)
-| 左对齐 | 右对齐 | 居中对齐 |
-| :-----| ----: | :----: |
-| 单元格 | 单元格 | 单元格 |
+
+| Impervious surface| Building| Lowveg |Tree| Car| mIoU(%)| MeanF1(%)| OA(%) |
+| :-----| ----: | :----: |:----: |:----: |:----: |:----: |:----: |
+| 96|98.5 |93.9| 91.5| 95.6| 89.72| 95.1 |94.75|
 
 文件夹例子
 ```python
@@ -51,7 +52,9 @@ python pytorch_remote_sensing_senmentation/tools/potsdam_cut.py --img-dir "data/
 123盘：https://www.123pan.com/s/YnBgjv-rST4H.html提取码:Vsb8
 
 Google Dirver:https://drive.google.com/file/d/1L2rxAzMm-pEV2dY111285t04hOm2L1hv/view?usp=drive_link
-
+| Impervious surface| Building| Lowveg |Tree| Car| mIoU(%)| MeanF1(%) |
+| :-----| ----: | :----: |:----: |:----: |:----: |:----: |
+| 94.8|93.7 |86.6| 91.85| 89.83| 85.9| 92.4|
 
 ## LoveDa数据集
 类别标签：背景 - 1、建筑 - 2、道路 - 3、水 - 4、贫瘠 - 5、森林 - 6、农业 - 7。无数据区域被指定为 0，应忽略。
@@ -64,6 +67,10 @@ Google Dirver:https://drive.google.com/file/d/1L2rxAzMm-pEV2dY111285t04hOm2L1hv/
 班级分布不一致
 数据集：LoveDA数据集在[Zenodo](https://zenodo.org/records/5706578)
 ![image](https://github.com/Jacky-Android/pytorch_remote_sensing_segmentation/assets/55181594/c3f49559-d00f-4847-ae70-05a84cb6f1bb)
+
+| Background| Building| Road| Water| Barren| Forest| Agriculture| mIoU(%)| MeanF1(%)| OA(%) |
+| :-----| ----: | :----: |:----: |:----: |:----: |:----: |:----: |:----: |:----: |
+| 46.85| 61.43| 59.07| 82.31| 19.94| 49.89| 66.15| 55.09| 69.19| 70.5|
 
 ## OpenEarthMap
 ![image](https://github.com/Jacky-Android/pytorch_remote_sensing_segmentation/assets/55181594/4f50a81b-2189-4aed-a357-f184aaff9870)
