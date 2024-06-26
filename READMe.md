@@ -74,3 +74,13 @@ OpenEarthMap 是全球高分辨率土地覆被制图的基准数据集。OpenEar
 EarthVQA 数据集包含 6000 幅 0.3 米的图像和 208593 个嵌入了城市和农村治理要求的 QA 对。这些 QA 对设计用于交通状况、教育设施、绿色生态、耕地状况等多种推理任务中的判断、计数、对象状况分析和综合分析类型。这种多模式、多任务的数据集提出了新的挑战，需要对遥感图像进行地理空间关系推理和归纳。
 ![image](https://github.com/Jacky-Android/pytorch_remote_sensing_segmentation/assets/55181594/0041f6ff-d578-4b9b-9c87-27a01a2c3c4e)
 [下载](http://rsidea.whu.edu.cn/EarthVQA.htm)
+
+# 鸣谢
+[GeoSeg](https://github.com/WangLibo1995/GeoSeg)
+
+[Timm](https://github.com/huggingface/pytorch-image-models)
+
+[pytorch](https://github.com/pytorch/pytorch)
+
+[Albumentations](https://github.com/albumentations-team/albumentations)
+
