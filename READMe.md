@@ -85,6 +85,10 @@ EarthVQA 数据集包含 6000 幅 0.3 米的图像和 208593 个嵌入了城市�
 ![image](https://github.com/Jacky-Android/pytorch_remote_sensing_segmentation/assets/55181594/0041f6ff-d578-4b9b-9c87-27a01a2c3c4e)
 [下载](http://rsidea.whu.edu.cn/EarthVQA.htm)
 
+![image](https://github.com/Jacky-Android/pytorch_remote_sensing_segmentation/assets/55181594/41acba11-b622-4ece-9087-e393e231f448)
+
+![image](https://github.com/Jacky-Android/pytorch_remote_sensing_segmentation/assets/55181594/ee8ad1bb-a891-4d9d-85b5-70f0cb15c21a)
+
 # 鸣谢
 [GeoSeg](https://github.com/WangLibo1995/GeoSeg)
 
